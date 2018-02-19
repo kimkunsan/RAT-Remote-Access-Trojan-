@@ -8,7 +8,7 @@ s = socket.socket()
 host = socket.gethostname()
 port = 9005
 s.connect((host, port))
-path = " " //ENTER YOUR PATH DIRECTORY IN THE QUOTATION
+path = " " #ENTER YOUR PATH DIRECTORY IN THE QUOTATION
 directory = os.listdir(path)
 for files in directory:
     print (files)
